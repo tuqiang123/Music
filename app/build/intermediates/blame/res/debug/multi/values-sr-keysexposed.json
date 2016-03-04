@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\build\\intermediates\\res\\merged\\debug\\values-sr-keysexposed\\values-sr-keysexposed.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 107,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-sr-keysexposed\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 826,
+                        "endColumn": 107,
+                        "endOffset": 929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 213,
+                    "endColumn": 132,
+                    "endOffset": 341
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-sr-keysexposed\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1074,
+                        "endColumn": 136,
+                        "endOffset": 1206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 346,
+                    "endColumn": 133,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-sr-keysexposed\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 935,
+                        "endColumn": 137,
+                        "endOffset": 1068
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\build\\intermediates\\res\\merged\\debug\\values-hi-keyshidden\\values-hi-keyshidden.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 223,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-hi-keyshidden\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 826,
+                        "endColumn": 227,
+                        "endOffset": 1049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 250,
+                    "endOffset": 575
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-hi-keyshidden\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1236,
+                        "endColumn": 258,
+                        "endOffset": 1490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 580,
+                    "endColumn": 175,
+                    "endOffset": 751
+                },
+                "from": {
+                    "file": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\values-hi-keyshidden\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1055,
+                        "endColumn": 179,
+                        "endOffset": 1230
+                    }
+                }
+            }
+        ]
+    }
+]

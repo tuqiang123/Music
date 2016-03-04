@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\build\\intermediates\\res\\merged\\debug\\xml\\appwidget_info.xml",
+        "source": "C:\\Users\\tu_qi\\Android\\Project\\Music\\app\\src\\main\\res\\xml\\appwidget_info.xml"
+    }
+]

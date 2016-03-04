@@ -1,0 +1,353 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:17:1-278:12
+	xmlns:android
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:17:11-69
+	package
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:18:9-36
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+original-package
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:20:5-58
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:20:23-55
+uses-sdk
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:21:5-71
+	android:targetSdkVersion
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:21:41-69
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:21:15-40
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:22:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:23:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:25:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:28:22-72
+application
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:30:5-277:19
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:31:9-50
+	android:icon
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:30:18-52
+	android:allowTaskReparenting
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:33:9-44
+	android:taskAffinity
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:32:9-50
+	android:usesCleartextTraffic
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:34:9-44
+meta-data#android.app.default_searchable
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:35:9-38:11
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:36:13-58
+	android:value
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:37:13-67
+activity#com.android.music.MusicBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:39:9-50:20
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:40:13-60
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:39:19-72
+intent-filter#android.intent.action.MAIN+android.intent.action.MUSIC_PLAYER+android.intent.category.APP_MUSIC+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:43:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:44:25-66
+action#android.intent.action.MUSIC_PLAYER
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:45:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:46:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:47:27-74
+category#android.intent.category.APP_MUSIC
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:48:27-75
+receiver#com.android.music.MediaButtonIntentReceiver
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:51:9-56:20
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:51:19-77
+intent-filter#android.intent.action.MEDIA_BUTTON+android.media.AUDIO_BECOMING_NOISY
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:52:13-55:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:53:25-74
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:54:25-74
+activity#com.android.music.MediaPlaybackActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:68:9-90:20
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:70:17-59
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:69:17-64
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:75:17-40
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:73:17-49
+	android:excludeFromRecents
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:74:17-50
+	android:taskAffinity
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:71:17-40
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:68:19-73
+	android:launchMode
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:72:17-48
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:76:13-85:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:77:25-66
+data
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:79:17-49
+	android:scheme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:79:23-47
+intent-filter#android.intent.category.DEFAULT+com.android.music.PLAYBACK_VIEWER
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:86:13-89:29
+action#com.android.music.PLAYBACK_VIEWER
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:87:17-76
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:87:25-73
+activity#com.android.music.AudioPreview
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:92:9-125:20
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:92:47-90
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:94:51-74
+	android:excludeFromRecents
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:94:17-50
+	android:taskAffinity
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:93:17-40
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:92:19-46
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:104:13-113:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:107:17-78
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:107:27-75
+activity#com.android.music.ArtistAlbumBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:127:9-133:20
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:127:79-103
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:127:19-78
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:128:13-132:29
+action#android.intent.action.PICK
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:129:17-69
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:129:25-66
+activity#com.android.music.AlbumBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:134:9-140:20
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:134:73-97
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:134:19-72
+activity#com.android.music.NowPlayingActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:141:9-147:20
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:141:71-95
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:141:19-70
+activity#com.android.music.TrackBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:148:9-155:20
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:148:73-97
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:148:19-72
+intent-filter#android.intent.action.EDIT+android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:149:13-154:29
+action#android.intent.action.EDIT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:150:17-69
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:150:25-66
+activity#com.android.music.QueryBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:156:9-168:20
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:157:17-64
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:158:17-40
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:156:19-72
+intent-filter#android.intent.action.MEDIA_SEARCH+android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:159:13-163:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:160:17-71
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:160:25-68
+action#android.intent.action.MEDIA_SEARCH
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:161:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:161:25-74
+meta-data#android.app.searchable
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:164:13-167:15
+	android:resource
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:166:17-51
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:165:17-54
+activity#com.android.music.PlaylistBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:169:9-182:20
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:170:17-58
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:171:17-40
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:169:19-75
+activity-alias#com.android.music.PlaylistShortcutActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:183:9-194:26
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:185:13-55
+	android:icon
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:186:13-73
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:187:13-36
+	android:targetActivity
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:184:13-79
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:183:25-82
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:189:13-192:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:190:17-80
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:190:25-77
+activity#com.android.music.VideoBrowserActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:195:9-212:20
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:197:13-54
+	android:icon
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:198:13-47
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:199:13-37
+	android:taskAffinity
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:196:13-54
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:195:19-72
+activity#com.android.music.MediaPickerActivity
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:213:9-236:20
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:214:17-57
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:214:58-82
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:213:19-71
+activity#com.android.music.MusicPicker
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:237:9-257:20
+	android:label
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:238:17-59
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:238:60-83
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:237:19-63
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:241:13-248:29
+action#android.intent.action.GET_CONTENT
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:242:17-76
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:242:25-73
+category#android.intent.category.OPENABLE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:244:17-77
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:244:27-74
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:251:13-256:29
+activity#com.android.music.CreatePlaylist
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:258:9-259:84
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:259:13-56
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:259:57-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:258:19-66
+activity#com.android.music.RenamePlaylist
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:260:9-261:84
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:261:13-56
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:261:57-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:260:19-66
+activity#com.android.music.WeekSelector
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:262:9-263:84
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:263:13-56
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:263:57-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:262:19-64
+activity#com.android.music.DeleteItems
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:264:9-265:84
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:265:13-56
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:265:57-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:264:19-63
+activity#com.android.music.ScanningProgress
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:266:9-267:84
+	android:theme
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:267:13-56
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:267:57-81
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:266:19-68
+service#com.android.music.MediaPlaybackService
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:268:9-269:40
+	android:exported
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:269:13-37
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:268:18-71
+receiver#com.android.music.MediaAppWidgetProvider
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:271:9-276:20
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:271:19-74
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:272:13-274:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:273:17-84
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:273:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:275:13-107
+	android:resource
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:275:66-104
+	android:name
+		ADDED from C:\Users\tu_qi\Android\Project\Music\app\src\main\AndroidManifest.xml:275:24-65
